@@ -1,16 +1,25 @@
-# SvelteKit Demo app
+# Guitar Tool (Working Title)
 
-The official demo app for SvelteKit, hosted on Vercel.
+In trying to develop my listening ability and learn chords/scales I've found a lot of pretty good sites that do their thing well, be it showing a plethora of scales, teaching all the positions of chords or ear training, but I haven't found a site that does all of them in a way that I like. Instead of criticising the other sites baselessly, I decided to have a go at it.
 
-## Deploy Your Own
+## Planned Featureset
+- Chord Positions
+  - A visual demonstration of any given chord across all possible shapes (hopefully achieved dynamically)
+- Scales
+  - A visual demonstration of all positions of any givens scale from any given starting note (hopefully achieved dynamically)
+- Ear Training
+  - Random note picker/player with timer for the user to guess what note has been played
+- Chord/Scale Harmoniser
+  - Scale suggestions for a given set of chords
+- Chord/Chord Harmoniser
+  - Chord suggestions for a given set of chords
+- Note/Pitch Recognition (tuner effectively to begin with)
+  - Allowing for the user to plug their instrument into the tool to tune, and later be used in other features.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2Fsveltekit-1&project-name=sveltekit-vercel&repository-name=sveltekit-vercel&demo-title=SvelteKit%20%2B%20Vercel&demo-url=https%3A%2F%2Fsveltekit-template.vercel.app%2F)
-
-_Live Example: https://sveltekit-template.vercel.app_
+## Design
+[Figma](https://www.figma.com/file/ssmdV4TvqbDRJTeAPNKUoj/Guitar-Tool-Design?type=design&mode=design&t=O9kRV834rwJYOrnX-0)
 
 ## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
@@ -29,8 +38,3 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-## Speed Insights
-
-Once deployed on Vercel, you can benefit from [Speed Insights](https://vercel.com/docs/concepts/speed-insights) simply by navigating to Vercel's dashboard, clicking on the 'Speed Insights' tab, and enabling the product.
-
-You will get data once your application will be re-deployed and will receive visitors.
