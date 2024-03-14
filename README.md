@@ -2,6 +2,9 @@
 
 In trying to develop my listening ability and learn chords/scales I've found a lot of pretty good sites that do their thing well, be it showing a plethora of scales, teaching all the positions of chords or ear training, but I haven't found a site that does all of them in a way that I like. Instead of criticising the other sites baselessly, I decided to have a go at it.
 
+## Current State
+Currently, the site is undergoing its first design, and so the website doesn't actually do anything. This will change once the initial design is done. The first feature to be implemented will be ear training, followed by chord/scale harmonisation.
+
 ## Planned Featureset
 - Chord Positions
   - A visual demonstration of any given chord across all possible shapes (hopefully achieved dynamically)
